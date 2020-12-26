@@ -239,6 +239,25 @@ background-repeat: no-repeat;
   display: block;
  }
 
+ .footer {
+   width: auto;
+   height: 80px;
+   text-align: center;
+   background-image: url(../img/trava.png);
+ }
+
+ .footer p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 30px;
+ }
+
+ .footer img {
+  width: 20px;
+  height: 20px;
+ }
+
  /* CSS Mobile */
 
  @media screen and (max-width: 1199px) {
