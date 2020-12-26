@@ -3,21 +3,12 @@
 }
 
 body {
-  margin:0;
-  padding:0;
-  width:100%;
-  height:100%;
-  overflow: auto;
-}
-
-.main {
   background-color: #f5eeee;
-  display: block;
-  width: 100%;
 }
 
 .header {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -97,6 +88,10 @@ body {
   font-size: 20px;
 }
 
+.menubar .sub_menu {
+  margin-top: 10px;
+}
+
 .menu_cs img {
   width: 30px;
   height: 30px;
@@ -111,7 +106,7 @@ body {
 .one {
 width: auto;
 height: 600px;
-background-image: url(../img/cat_dog.jpg);
+background-image: url(../img/kiten.jpg);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -166,7 +161,7 @@ background-repeat: no-repeat;
 
 .tree {
   width: auto;
-  height: 200px;
+  height: auto;
   margin: 50px auto;
 }
 
@@ -200,55 +195,87 @@ background-repeat: no-repeat;
   margin-top: 10px;
 }
 
-/* sub_menu */
-
-.menu_head {
-  
+.foto_main a {
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000;
 }
 
-.menu_head li ul{
+/* sub_menu */
+
+.sub_menu {
+  width: 400px;
+  height: auto;
+  padding: 0;
+}
+
+.sub_menu li {
+  background-color:#5d5d5d9c;
+  border: solid #ffffff 1px;
+  border-radius: 5%;
+  float: left;
+  margin-left: 10px;
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+
+.menu_head li ul {
   display: none;
+  position: absolute;
+  right: 925px;
+}
+
+.sub_menu li:last-child {
+  float: right;
+  margin-right: 10px;
+}
+
+.sub_menu  li:nth-child(2) {
+  margin-left: 40px;
 }
  
 .menu_head li:hover ul {
   display: block;
-}
+ }
 
-@media (max-width : 1195px) {
+ /* CSS Mobile */
+
+ @media screen and (max-width: 1199px) {
   .menu_head {
     flex-direction: column;
-  }
-
-  .foto_main {
-    flex-direction: column;
-  }
-
-  .photo_container img {
-    display: block;
-    margin: 0 auto;
-  }
 }
+ }
 
-@media (max-width : 635px) {
-    .menu_net {
-    flex-direction: column;
-    }
-  }
-
-@media (max-width : 515px) {
+ @media screen and (max-width: 823px) {
   .logo_text {
+    flex-direction: column;
+}
+
+.tree .foto_main {
   flex-direction: column;
+  text-align: center;
+}
+ }
+
+ @media screen and (max-width: 523px) {
+  .menu_net {
+    flex-direction: column;
+}
+
+  .menu_head a {
+      font-size: 18px;
   }
 }
 
-@media (max-width : 377px) {
-  .menu_net img {
+ @media screen and (max-width: 393px) {
+  .menu_cs img {
     width: 20px;
-    height: 20px
-  }
+    height: 20px;
+ }
 
-  .logo_text img {
-    width: 100px;
-    height: 100px
-  }
+ .menu_head {
+  padding: 0;;
 }
+ }
+
