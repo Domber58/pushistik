@@ -90,6 +90,7 @@ body {
 
 .menubar .sub_menu {
   margin-top: 10px;
+  font-size: 20px;
 }
 
 .menu_cs img {
@@ -209,6 +210,10 @@ background-repeat: no-repeat;
   padding: 0;
 }
 
+.sub_menu li a {
+  font-size: 18px;
+}
+
 .sub_menu li {
   background-color:#5d5d5d9c;
   border: solid #ffffff 1px;
@@ -223,7 +228,7 @@ background-repeat: no-repeat;
 .menu_head li ul {
   display: none;
   position: absolute;
-  right: 925px;
+  right: 630px;
 }
 
 .sub_menu li:last-child {
@@ -239,6 +244,8 @@ background-repeat: no-repeat;
   display: block;
  }
 
+ /* footer */
+
  .footer {
    width: auto;
    height: 80px;
@@ -250,12 +257,19 @@ background-repeat: no-repeat;
   color: #ffffff;
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
-  padding-top: 30px;
+  padding-top: 10px;
  }
 
  .footer img {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+ }
+
+ /* cats.html */
+
+ .foto_cats img {
+   width: auto;
+   height: 550px;
  }
 
  /* CSS Mobile */
