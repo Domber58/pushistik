@@ -258,6 +258,24 @@ background-repeat: no-repeat;
   height: 20px;
  }
 
+ /* cats */
+
+ .foto_cats figure {
+  width: 450px;
+  margin: auto;
+  display: inline-block;
+}
+
+.foto_cats img {
+  border: 1px solid #55c5e9;
+  width: 100%;
+}
+
+.foto_cats figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
  /* CSS Mobile */
 
  @media screen and (max-width: 1199px) {
