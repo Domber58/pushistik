@@ -274,20 +274,34 @@ background-repeat: no-repeat;
 
  /* cats */
 
+ .foto_cats h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #2b2828;
+  margin-top: 30px;
+ }
+
  .foto_cats figure {
   width: 450px;
-  margin: auto;
+  height: 600px;
+  margin: 60px 0 50px 135px;
   display: inline-block;
 }
 
 .foto_cats img {
-  border: 1px solid #55c5e9;
+  border: 2px solid #55c5e9;
+  border-radius: 5%;
   width: 100%;
 }
 
 .foto_cats figcaption {
   text-align: center;
   font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
  /* CSS Mobile */
