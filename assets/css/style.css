@@ -269,8 +269,20 @@ background-repeat: no-repeat;
  /* cats.html */
 
  .foto_cats img {
-   width: auto;
-   height: 550px;
+  width: auto;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+ }
+
+ .foto_cats p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
  }
 
  /* cats */
