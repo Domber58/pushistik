@@ -149,14 +149,52 @@ background-repeat: no-repeat;
 }
 
 .too a:hover {
-  color: rgb(207, 243, 3);
+  color:blue;
 }
 
 .too b {
-  text-decoration: underline;
+  color:blue;
 }
 
+.rekviz {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-style: italic;
+text-align: center;
+color: rgb(3, 3, 22);
+margin-top: 100px;
+color:blue;
+}
 
+.rekviz_p .card {
+  margin-top: 100px;
+}
+
+.rekviz_p img {
+  width: 600px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.rekviz_p p {
+  font-size: 40px;
+  color:rgb(167, 14, 14);
+  margin-top: 30px;
+}
+
+.reg {
+  margin-top: 100px;
+}
+
+.reg p {
+  font-size: 40px;
+}
+
+.svid {
+  width: 600px;
+  height: auto;
+  margin: 50px 0;
+}
 
 /* tree */
 
@@ -378,9 +416,7 @@ background-repeat: no-repeat;
 .zagolovok {
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin: 50px 30px 50px 30px;
 }
 
 .zagolovok p {
@@ -393,12 +429,18 @@ background-repeat: no-repeat;
 
 .zagolovok img {
   width: auto;
-  height: 400px;
+  height: 300px;
   border: 2px solid #000000;
   border-radius: 4%;
 }
 
+.zagolovok p {
+  padding: 50px 50px;
+}
 
+.zag {
+  margin-top: 50px;
+}
 
 .help {
   display: flex;
