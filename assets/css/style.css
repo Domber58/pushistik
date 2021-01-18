@@ -81,18 +81,6 @@ body {
   color: rgb(207, 243, 3);
 }
 
-.menu_head li {
-  display: inline;
-  padding: 10px 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
-
-.menubar .sub_menu {
-  margin-top: 10px;
-  font-size: 20px;
-}
-
 .menu_cs img {
   width: 30px;
   height: 30px;
@@ -266,8 +254,6 @@ color:blue;
 
 .menu_head li ul {
   display: none;
-  position: absolute;
-  right: 560px;
 }
 
 .sub_menu li:last-child {
@@ -282,6 +268,32 @@ color:blue;
 .menu_head li:hover ul {
   display: block;
  }
+
+ .menu_head_sub {
+  position: relative;
+  padding-top: 10px;
+}
+
+.sub_menu  {
+  position: absolute;
+  left: -113px;
+}
+
+.menu_head li {
+  display: inline;
+  padding: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.menubar .sub_menu {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.sub_menu li {
+  padding: 0;
+}
 
  /* footer */
 
@@ -417,6 +429,7 @@ color:blue;
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .zagolovok p {
@@ -435,11 +448,11 @@ color:blue;
 }
 
 .zagolovok p {
-  padding: 50px 50px;
+  padding: 0px 50px;
 }
 
 .zag {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .help {
