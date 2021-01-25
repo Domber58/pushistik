@@ -264,7 +264,7 @@ color:blue;
 .sub_menu  li:nth-child(2) {
   margin-left: 40px;
 }
- 
+
 .menu_head li:hover ul {
   display: block;
  }
@@ -280,7 +280,7 @@ color:blue;
 }
 
 .menu_head li {
-  display: inline;
+  display: inline-block;
   padding: 10px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
