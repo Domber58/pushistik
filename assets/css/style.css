@@ -121,7 +121,7 @@ background-repeat: no-repeat;
 
 .too p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-style: italic;
   line-height: normal;
   text-indent: 20px;
@@ -456,9 +456,6 @@ color:blue;
 }
 
 .help {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-top: 30px;
   font-size: 20px;
   color: rgb(0, 95, 16);
@@ -476,3 +473,25 @@ ul {
 .colortext {
   color: red;
 }
+
+.vol {
+  margin-top: 50px;
+}
+
+.vol h2 {
+  font-size: 50px;
+  color: rgb(45, 6, 134);
+}
+
+.collaj {
+  width: auto;
+  height: 740px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding: 0 0;
+  background-image: url(../img/volonter1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
