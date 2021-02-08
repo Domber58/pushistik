@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пушистик</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.scrollup').fadeIn();
+        } else {
+          $('.scrollup').fadeOut();
+        }
+      });
+
+      $('.scrollup').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
+
+    });
+  </script>
+  <div class="main">
+    <div class="header">
+      <div class="logo_text">
+        <a href="index.html"> <img src="assets/img/logo_n.png" alt="Лого"></a>
+        <a href="index.html">
+          <h2>Местная<br>Общественная<br>Организация<br>Пушистик</h2>
+        </a>
+      </div>
+      <div class="menubar">
+        <ul class="menu_head">
+          <li><a href="index.html">Главная</a></li>
+          <li class="selected"><a href="#">Наши пушистики</a>
+            <div class="menu_head_sub">
+              <ul class="sub_menu">
+                <li><a href="dogs.html">Собаки</a></li>
+                <li><a href="cats.html">Кошки</a></li>
+                <li><a href="kittens.html">Котята</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="help.html">Как помочь</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="menu_cs">
+        <ul class="menu_net">
+          <li><a href="https://vk.com/public201066937" target="blank"><img src="assets/img/VK.png"></a></li>
+          <li><a href="#"><img src="assets/img/Facebook.png"></a></li>
+          <li><a href="https://www.instagram.com/pushistik_berezovo/" target="blank"><img
+                src="assets/img/Instagram.png"></a></li>
+          <li><a href="#"><img src="assets/img/YouTube.png"></a></li>
+          <li><a href="#"><img src="assets/img/Ok.png"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foto_cats">
+    <h1>Собаки в добрые руки</h1>
+    <div class="container">
+      <div class="card">
+        <p>Порода: лайка</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: сетло-серый</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: да</p>
+        <p>Характер: дружелюбная и игривая</p>
+      </div>
+      <figure>
+        <img src="assets/img/dogs/alisa.jpg">
+        <figcaption>Алиса</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 2 года</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: пестрый</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: уравновешенная</p>
+      </div>  
+      <figure>
+        <img src="assets/img/dogs/dora.jpg">
+        <figcaption>Дора</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: метиска лайки</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: темный</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: очень активная</p>
+      </div>
+      <figure>
+        <img src="assets/img/dogs/dzhulya.jpg">
+        <figcaption>Джулия</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: серая</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: очень ласковая,спокойная и общительная</p>
+      </div>
+      <figure>
+        <img src="assets/img/dogs/katyasha.jpg">
+        <figcaption>Катюша</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: метиска эрдельтерьера</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: светло-бежевая</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: да</p>
+        <p>Характер: дружелюбная, очень привязана к людям</p>
+      </div>
+      <figure>
+        <img src="assets/img/dogs/delya.jpg">
+        <figcaption>Деля</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: трехцветный</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: очень спокойная</p>
+      </div>
+      <figure>
+        <img src="assets/img/dogs/mulatka.jpg">
+        <figcaption>Мулатка</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: серая</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: очень ласковая и общительная</p>
+      </div>
+      <figure>
+        <img src="assets/img/dogs/vesta.jpg">
+        <figcaption>Веста</figcaption>
+      </figure>
+    </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        <b>МОО "Пушистик" 2020 <img src="assets/img/logo_n.png" alt="Лого"> Все права защищены</b>
+      </p>
+    </div>
+    <a href="#" class="scrollup">Наверх</a>
+</body>
+
+</html>

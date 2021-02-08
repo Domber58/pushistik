@@ -6,9 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Пушистик</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 
 <body>
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.scrollup').fadeIn();
+        } else {
+          $('.scrollup').fadeOut();
+        }
+      });
+
+      $('.scrollup').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
+
+    });
+  </script>
   <div class="main">
     <div class="header">
       <div class="logo_text">
@@ -30,14 +49,15 @@
             </div>
           </li>
           <li><a href="help.html">Как помочь</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="contact.html">Контакты</a></li>
         </ul>
       </div>
       <div class="menu_cs">
         <ul class="menu_net">
-          <li><a href="#"><img src="assets/img/VK.png"></a></li>
+          <li><a href="https://vk.com/public201066937" target="blank"><img src="assets/img/VK.png"></a></li>
           <li><a href="#"><img src="assets/img/Facebook.png"></a></li>
-          <li><a href="#"><img src="assets/img/Instagram.png"></a></li>
+          <li><a href="https://www.instagram.com/pushistik_berezovo/" target="blank"><img
+                src="assets/img/Instagram.png"></a></li>
           <li><a href="#"><img src="assets/img/YouTube.png"></a></li>
           <li><a href="#"><img src="assets/img/Ok.png"></a></li>
         </ul>
@@ -46,45 +66,134 @@
   </div>
   <div class="foto_cats">
     <h1>Кошки в добрые руки</h1>
-    <figure>
-      <img src="assets/img/cats/gercoginya.jpg">
-      <figcaption>Герцогиня</figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/cats/kassandra.jpg">
-      <figcaption>Кассандра</figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/cats/maggi.jpg">
-      <figcaption>Мэгги</figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/cats/nensi.jpg">
-      <figcaption>Нэнси</figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/cats/tereza.jpg">
-      <figcaption>Тереза</figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/cats/Vika.jpg">
-      <figcaption>Вика</figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/cats/Lusi.jpg">
-      <figcaption>Люси</figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/cats/viktor.jpg">
-      <figcaption>Виктор</figcaption>
-    </figure>
-  </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 1,5 года</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: счастливый трехцветный</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: ласковая и общительная</p>
+      </div>
+      <figure>
+        <img src="assets/img/cats/gercoginya.jpg">
+        <figcaption>Герцогиня</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 2 года</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: пестрый</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: уравновешенная</p>
+      </div>  
+      <figure>
+        <img src="assets/img/cats/kassandra.jpg">
+        <figcaption>Кассандра</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: сибирская</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: серая пушистая</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: да</p>
+        <p>Характер: очень ласковая и спокойная, дружит со всеми</p>
+      </div>
+      <figure>
+        <img src="assets/img/cats/maggi.jpg">
+        <figcaption>Мэгги</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: серая</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: очень ласковая,спокойная и общительная</p>
+      </div>
+      <figure>
+        <img src="assets/img/cats/nensi.jpg">
+        <figcaption>Нэнси</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: серая</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: очень привязана к людям</p>
+      </div>
+      <figure>
+        <img src="assets/img/cats/tereza.jpg">
+        <figcaption>Тереза</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: трехцветный</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: очень спокойная</p>
+      </div>
+      <figure>
+        <img src="assets/img/cats/Vika.jpg">
+        <figcaption>Вика</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянка (б/п)</p>
+        <p>Возраст: 1 год</p>
+        <p>Пол: девочка</p>
+        <p>Окрас: серая</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: -</p>
+        <p>Характер: очень ласковая и общительная</p>
+      </div>
+      <figure>
+        <img src="assets/img/cats/Lusi.jpg">
+        <figcaption>Люси</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="card">
+        <p>Порода: дворянин</p>
+        <p>Возраст: 1,5 года</p>
+        <p>Пол: мальчик</p>
+        <p>Окрас: темный с белым узором</p>
+        <p>Прививки: -</p>
+        <p>Стерилизация: да</p>
+        <p>Характер: привязанность к людям, солидный и важный</p>
+      </div>
+      <figure>
+        <img src="assets/img/cats/viktor.jpg">
+        <figcaption>Виктор</figcaption>
+      </figure>
+    </div>
+    </div>
 
-  <div class="footer">
-    <p>
-      <b>МОО "Пушистик" 2020 <img src="assets/img/logo_n.png" alt="Лого"> Все права защищены</b>
-    </p>
-  </div>
+    <div class="footer">
+      <p>
+        <b>МОО "Пушистик" 2020 <img src="assets/img/logo_n.png" alt="Лого"> Все права защищены</b>
+      </p>
+    </div>
+    <a href="#" class="scrollup">Наверх</a>
 </body>
 
 </html>

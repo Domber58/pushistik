@@ -6,9 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Пушистик</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 
 <body>
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.scrollup').fadeIn();
+        } else {
+          $('.scrollup').fadeOut();
+        }
+      });
+
+      $('.scrollup').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
+
+    });
+  </script>
   <div class="main">
     <div class="header">
       <div class="logo_text">
@@ -30,14 +49,15 @@
             </div>
           </li>
           <li class="selected"><a href="help.html">Как помочь</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="contact.html">Контакты</a></li>
         </ul>
       </div>
       <div class="menu_cs">
         <ul class="menu_net">
-          <li><a href="#"><img src="assets/img/VK.png"></a></li>
+          <li><a href="https://vk.com/public201066937" target="blank"><img src="assets/img/VK.png"></a></li>
           <li><a href="#"><img src="assets/img/Facebook.png"></a></li>
-          <li><a href="#"><img src="assets/img/Instagram.png"></a></li>
+          <li><a href="https://www.instagram.com/pushistik_berezovo/" target="blank"><img
+                src="assets/img/Instagram.png"></a></li>
           <li><a href="#"><img src="assets/img/YouTube.png"></a></li>
           <li><a href="#"><img src="assets/img/Ok.png"></a></li>
         </ul>
@@ -50,10 +70,16 @@
       <div class="zagolovok">
         <img src="assets/img/cat_diner.jpg" alt="Кот обедает">
         <p>Наш Приют <b>не финансируется</b> муниципальным бюджетом и существует
-          <span class="colortext"><b>ТОЛЬКО</b></span> <br>на благотворительные
-          пожертвования неравнодушных граждан.<br> В связи с этим нам всегда
+          <span class="colortext"><b>ТОЛЬКО</b></span> на благотворительные
+          пожертвования неравнодушных граждан. В связи с этим нам всегда
           необходима разнообразная <span class="colortext"><b>ПОМОЩЬ!</b></span>
         </p>
+        <div class="bank">
+          <p>Если вы хотите оказать помощь приюту,отправить пожертвование
+            можно на банковскую карту.<br>
+            Карта 5469 6700 2572 0676 привязана к телефону +7 929 242 88 75
+          </p>
+        </div>
         <img src="assets/img/hand_up.jpg" alt="Собака просит еду">
       </div>
     </div>
@@ -81,8 +107,27 @@
       <div class="vol">
         <h2>Стать волонтером</h2>
       </div>
-      <div class="collaj">
+      <div class="volonter">
+        <div class="foto_zab">
+          <img class="princ" src="assets/img/princ_zab.jpg" alt="Уже дома">
+          <img class="kity" src="assets/img/kity_zab1.jpg" alt="Уже дома">
+        </div>
+        <div class="text">
+          <p>Нашему приюту также нужны постоянные помощники и волонтеры мы будем рады если вы примете участие
+            в работе приюта.
+            Мы создали проект «Пушистик», чтобы бездомные животные нашли новых любящих хозяев. В приюте, где
+            они содержатся, царит атмосфера добра и заботы. Поддерживают её люди, которым не безразлична судьба
+            наших четвероногих друзей.
+            Если вы не можете взять в дом собаку или кошку, но хотите оказать помощь в их содержании, будем рады любому
+            участию.
+            Если вы готовы оказывать помощь животным муниципального приюта на месте, помогая с
+            их социализацией или же уборкой и уходом за кошками, или прогулками с собаками, то предлагаем вам
+            позвонить по телефонам +7-952-707-28-54, +7-904-884-24-91 или обратиться в магазин "Домовой"
+            к Евгении Аркадьевне Свящук.
+          </p>
+        </div>
       </div>
+
     </div>
   </div>
   <div class="footer">
@@ -90,6 +135,7 @@
       <b>МОО "Пушистик" 2020 <img src="assets/img/logo_n.png" alt="Лого"> Все права защищены</b>
     </p>
   </div>
+  <a href="#" class="scrollup">Наверх</a>
 </body>
 
 </html>
