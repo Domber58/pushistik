@@ -154,7 +154,7 @@ margin-top: 100px;
 color:blue;
 }
 
-.rekviz_p .card {
+.rekviz_p .card_pr {
   margin-top: 100px;
 }
 
@@ -322,6 +322,12 @@ color:blue;
    margin-bottom: 30px;
  }
 
+ .foto_cats_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
  .foto_cats h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
@@ -333,17 +339,22 @@ color:blue;
 
  .container {
   position: relative;
- width: 450px;
- height: 600px;
+  width: 350px;
+  height: 500px;
 }
 
-.foto_cats img {
+.foto_cats .foto_cats_wrapper figure img {
+  width: 350px;
+  height: 500px;
+}
+
+.foto_cats .foto_cats_wrapper img {
   border: 2px solid #55c5e9;
   border-radius: 5%;
   width: 100%;
 }
 
-.foto_cats figcaption {
+.foto_cats .foto_cats_wrapper figcaption {
   text-align: center;
   font-style: italic;
   font-size: 24px;
@@ -353,8 +364,8 @@ color:blue;
 
 .card {
   position: absolute;
-  width: 450px;
-  height: 600px;
+  width: 350px;
+  height: 500px;
   background: lightgray;
   border: 2px solid #55c5e9;
   border-radius: 5%;
@@ -381,7 +392,7 @@ color:blue;
   padding: 0px 10px;
 }
 
-.foto_cats .container {
+.foto_cats .foto_cats_wrapper .container {
   display: inline-block;
   margin: 30px 10px;
 }
@@ -390,6 +401,12 @@ color:blue;
 
 .foto_kittens {
   margin-bottom: 30px;
+}
+
+.foto_kittens_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .foto_kittens h1 {
@@ -401,18 +418,18 @@ color:blue;
   margin-top: 30px;
  }
 
-.foto_kittens figure img {
-  width: 450px;
-  height: 600px;
+.foto_kittens .foto_kittens_wrapper figure img {
+  width: 350px;
+  height: 500px;
 }
 
-.foto_kittens img {
+.foto_kittens .foto_kittens_wrapper img {
   border: 2px solid #55c5e9;
   border-radius: 5%;
   width: 100%;
 }
 
-.foto_kittens figcaption {
+.foto_kittens .foto_kittens_wrapper figcaption {
   text-align: center;
   font-style: italic;
   font-size: 24px;
@@ -420,7 +437,7 @@ color:blue;
   margin-top: 10px;
 }
 
-.foto_kittens .container {
+.foto_kittens .foto_kittens_wrapper .container {
   display: inline-block;
   margin: 30px 10px;
 }
@@ -447,8 +464,8 @@ color:blue;
  }
 
 .foto_dogs .foto_dogs_wrapper figure img {
-  width: 450px;
-  height: 600px;
+  width: 350px;
+  height: 500px;
 }
 
 .foto_dogs .foto_dogs_wrapper img {
