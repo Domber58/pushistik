@@ -431,6 +431,12 @@ color:blue;
   margin-bottom: 30px;
 }
 
+.foto_dogs_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
 .foto_dogs h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
@@ -440,18 +446,18 @@ color:blue;
   margin-top: 30px;
  }
 
-.foto_dogs figure img {
+.foto_dogs .foto_dogs_wrapper figure img {
   width: 450px;
   height: 600px;
 }
 
-.foto_dogs img {
+.foto_dogs .foto_dogs_wrapper img {
   border: 2px solid #55c5e9;
   border-radius: 5%;
   width: 100%;
 }
 
-.foto_dogs figcaption {
+.foto_dogs .foto_dogs_wrapper figcaption {
   text-align: center;
   font-style: italic;
   font-size: 24px;
@@ -459,7 +465,7 @@ color:blue;
   margin-top: 10px;
 }
 
-.foto_dogs .container {
+.foto_dogs .foto_dogs_wrapper .container {
   display: inline-block;
   margin: 30px 10px;
 }
