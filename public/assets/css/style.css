@@ -246,7 +246,7 @@ color:blue;
   border: solid #ffffff 1px;
   border-radius: 5%;
   float: left;
-  margin-left: 10px;
+  margin-left: 22px;
   width: 100px;
   height: auto;
   text-align: center;
@@ -258,11 +258,11 @@ color:blue;
 
 .sub_menu li:last-child {
   float: right;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .sub_menu  li:nth-child(2) {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .menu_head li:hover ul {
@@ -276,7 +276,7 @@ color:blue;
 
 .sub_menu  {
   position: absolute;
-  left: -113px;
+  left: -110px;
 }
 
 .menu_head li {
