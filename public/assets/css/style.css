@@ -239,6 +239,8 @@ color:blue;
 
 .sub_menu li a {
   font-size: 18px;
+  display: block;
+  height: 100%;
 }
 
 .sub_menu li {
