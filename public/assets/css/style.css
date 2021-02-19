@@ -702,7 +702,7 @@ ul {
  .menu_head {
   padding: 0;
 }
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 400px) {
    .menu_head {
     line-height: 1.3;
    }
