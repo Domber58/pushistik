@@ -489,45 +489,8 @@ color:blue;
   margin: 30px 10px;
 }
 
- /* CSS Mobile */
 
- @media screen and (max-width: 1199px) {
-  .menu_head {
-    flex-direction: column;
-}
- }
 
- @media screen and (max-width: 823px) {
-  .logo_text {
-    flex-direction: column;
-}
-
-.tree .foto_main {
-  flex-direction: column;
-  text-align: center;
-}
- }
-
- @media screen and (max-width: 523px) {
-  .menu_net {
-    flex-direction: column;
-}
-
-  .menu_head a {
-      font-size: 18px;
-  }
-}
-
- @media screen and (max-width: 393px) {
-  .menu_cs img {
-    width: 20px;
-    height: 20px;
- }
-}
-
- .menu_head {
-  padding: 0;
-}
 
 /* help */
 
@@ -644,6 +607,8 @@ ul {
 
 .map {
   position: relative;
+  height: 754px;
+  width: 100%;
 }
 
 .map .adres {
@@ -654,32 +619,34 @@ ul {
   margin: 50px 0;
   padding: 5px 10px;
   position: absolute;
-  top: 20px;
-  left: 850px;
+  top: -25px;
+  left: 677px;
   border: 3px solid #151718;
   border-radius: 3%;
   background-color: #d5e2d4;
+  z-index: 1;
 }
 
-.map img {
+.map_foto {
+  height: 754px;
   width: 100%;
 }
 
-.map p {
-  position: absolute;
-  width: auto;
-  height: auto;
+.berezovo p {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
   color: rgb(1, 1, 22);
   line-height: 2;
   padding: 5px 10px;
-  top: 350px;
-  left: 100px;
   border: 2px solid #151718;
   border-radius: 2%;
   background-color: #d5e2d4;
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 123px;
+  left: 100px;
 }
 
 /* Кнопка Наверх */
@@ -694,4 +661,286 @@ ul {
   display:none;
   text-indent:-9999px;
   background: url(../img/icon_top.png) no-repeat;
+}
+
+ /* CSS Mobile */
+
+ @media screen and (max-width: 1199px) {
+  .menu_head {
+    flex-direction: column;
+}
+ }
+
+ @media screen and (max-width: 823px) {
+  .logo_text {
+    flex-direction: column;
+}
+
+.tree .foto_main {
+  flex-direction: column;
+  text-align: center;
+}
+ }
+
+ @media screen and (max-width: 523px) {
+  .menu_net {
+    flex-direction: column;
+}
+
+  .menu_head a {
+      font-size: 18px;
+  }
+}
+
+ @media screen and (max-width: 393px) {
+  .menu_cs img {
+    width: 20px;
+    height: 20px;
+ }
+}
+
+ .menu_head {
+  padding: 0;
+}
+ @media screen and (max-width: 320px) {
+   .menu_head {
+    line-height: 1.3;
+   }
+
+  .menu_head li {
+    padding: 0;
+  } 
+
+  .one {
+    width: auto;
+    height: 143px;
+  }
+
+  .one h1 {
+    padding: 102px 0 0 20px;
+    font-size: 16px;
+  }
+
+  .too {
+    margin: 10px auto;
+  }
+
+  .too p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .tree {
+    margin: 15px auto;
+  }
+
+  .tree h2 {
+    color: #0839c3;
+    font-size: 24px;
+  }
+
+  .rekviz {
+    margin-top: 22px;
+  }
+
+  .rekviz_p img {
+    width: 320px;
+    height: 337px;
+    margin-top: -8px;
+ }
+
+ .rekviz_p p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+ }
+
+ .rekviz_p .card_pr {
+    margin-top: 19px;
+  }
+
+  .reg {
+    margin-top: 20px;
+  }
+
+ .reg p {
+  font-size: 25px;
+  }
+
+.svid {
+  width: 320px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 0;
+  }
+
+ .sub_menu {
+  width: 152px;
+  height: auto;
+  padding: 0;
+ }
+
+.sub_menu li a {
+  font-size: 15px;
+  display: block;
+  height: 100%;
+ }
+
+ .sub_menu li {
+  background-color:#2b73399c;
+ }
+
+ .card {
+  width: 310px;
+  height: 414px;
+  left: -1px;
+  top: -1px;
+ }
+
+ .card p {
+  font-size: 19px;
+ }
+
+ /* media dogs */
+ .foto_dogs {
+  margin-bottom: -17px;
+ }
+
+ .foto_dogs h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #0d0ab9;
+  margin-top: 11px;
+ }
+
+.foto_dogs .foto_dogs_wrapper .container {
+  margin: 0px 10px;
+ }
+
+.foto_dogs .foto_dogs_wrapper figure img {
+  width: 310px;
+  height: 414px;
+ }
+
+ /* media cats */
+ .foto_cats h1 {
+  font-size: 25px;
+  color:#0d0ab9;
+  margin-top: 10px;
+ }
+
+.foto_cats .foto_cats_wrapper figure img {
+  width: 310px;
+  height: 414px;
+ }
+
+ .foto_cats {
+  margin-bottom: -17px;
+ }
+
+.foto_cats .foto_cats_wrapper .container {
+  margin: 0px 10px;
+ }
+
+ /*  media kittens */
+ .foto_kittens h1 {
+  font-size: 25px;
+  color:#0d0ab9;
+  margin-top: 10px;
+ }
+
+.foto_kittens .foto_kittens_wrapper figure img {
+  width: 310px;
+  height: 414px;
+ }
+
+ .foto_kittens {
+  margin-bottom: -17px;
+ }
+
+.foto_kittens .foto_kittens_wrapper .container {
+  margin: 0px 10px;
+ }
+
+ /*  media help */
+ .how_help .conteiner h1 {
+  font-size: 20px;
+  margin-top: 10px;
+ }
+
+ .zagolovok {
+  width: 100%;
+  display: contents;
+  justify-content: center;
+  margin-top: 50px;
+ }
+
+ .zagolovok img {
+  width: auto;
+  height: 255px;
+ }
+
+ .zagolovok p {
+  text-align: center;
+  font-size: 18px;
+  width: auto;
+ }
+
+ .how_help h2 {
+  font-size: 20px;
+  margin-top: 10px;
+ }
+
+ 
+
+.help {
+  margin-top: 0px;
+  font-size: 18px;
+  text-align: center;
+ }
+
+ .spisok {
+  padding: 0 10px;
+  margin: 10px;
+ }
+
+ .help ul {
+  font-style: italic;
+  line-height: 1.3;
+}
+
+ .volonter {
+  font-size: 18px;
+  text-align: justify;
+  margin: 10px;
+ }
+
+ .foto_zab img {
+   display: none;
+ }
+
+ /*  media contact */
+ .map {
+  height: auto;
+  width: 100%;
+}
+
+.map .adres {
+  position: unset;
+  margin: 0;
+  font-size: 30px;
+}
+
+.map_foto {
+  display: none;
+}
+
+.berezovo p {
+    position: unset;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .footer p {
+    font-size: 8px;
 }
