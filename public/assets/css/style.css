@@ -653,7 +653,7 @@ ul {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  color: rgb(1, 1, 22);
+  color: rgb(8, 8, 117);
   margin: 10px auto;
 }
 
@@ -661,8 +661,9 @@ ul {
   padding: 20px 20px;
   margin: auto;
   width: 500px;
-  border: 2px solid #151718;
-  border-radius: 2%;
+  border: 2px solid #056899;
+  border-radius: 4%;
+  margin-bottom: 10px;
 }
 
 /* Кнопка Наверх */
