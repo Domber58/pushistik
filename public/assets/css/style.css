@@ -649,6 +649,21 @@ ul {
   left: 100px;
 }
 
+.form_h {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(1, 1, 22);
+  margin: 10px auto;
+}
+
+.form {
+  padding: 20px 20px;
+  margin: 10px 10px;
+  width: 300px;
+  height: auto;
+}
+
 /* Кнопка Наверх */
 
 .scrollup {
