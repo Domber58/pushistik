@@ -720,7 +720,7 @@ ul {
  .menu_head {
   padding: 0;
 }
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 414px) {
    .menu_head {
     line-height: 1.3;
    }
