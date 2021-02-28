@@ -979,6 +979,7 @@ iframe {
   /* Yandex кнопка */
   iframe {
     width: 99%;
+    height: 331px;
     border: 1px solid #056899;
   }
 }
