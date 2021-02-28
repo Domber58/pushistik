@@ -681,6 +681,12 @@ ul {
   background: url(../img/icon_top.png) no-repeat;
 }
 
+iframe {
+  width: 102%;
+  display: flex;
+  margin: auto;
+}
+
  /* CSS Mobile */
 
  @media screen and (max-width: 1199px) {
@@ -909,8 +915,6 @@ ul {
   margin-top: 10px;
  }
 
- 
-
 .help {
   margin-top: 0px;
   font-size: 18px;
@@ -969,5 +973,11 @@ ul {
 
   .form textarea {
     width: 280px;
+  }
+
+  /* Yandex кнопка */
+  iframe {
+    width: 99%;
+    border: 1px solid #056899;
   }
 }
