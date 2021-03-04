@@ -436,6 +436,7 @@ color:blue;
 .foto_kittens .foto_kittens_wrapper figure img {
   width: 350px;
   height: 500px;
+  object-fit: cover;
 }
 
 .foto_kittens .foto_kittens_wrapper img {
