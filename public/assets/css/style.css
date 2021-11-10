@@ -419,6 +419,16 @@ color:blue;
   margin-bottom: 30px;
 }
 
+.video .center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: solid 2px #55c5e9;
+  border-radius: 5%;
+}
+
+
+
 .foto_kittens_wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -481,6 +491,7 @@ color:blue;
  }
 
 .foto_dogs .foto_dogs_wrapper figure img {
+  object-fit: cover;
   width: 350px;
   height: 500px;
 }
